@@ -10,10 +10,9 @@
     --rosa: #F2B6D7;
     --amarelo: #F2CE16;
     --font_padrao: Arial, Helvetica, sans-serif;
-    --hand: 'Beau Rivage', cursive;
     --font_tema: 'Beau Rivage', cursive;
 }
-
+/* configurações iniciais */
 * {
     font-family: var(--font_padrao);
     text-align: justify;
@@ -21,81 +20,40 @@
     margin: 0px;
 }
 
-h1 {
+header > a, h1 {
     font-family: var(--font_tema);
-    font-size: 2.5em;
 }
 
 h2 {
     font-family: var(--hand);
-    font-size: 2em;
 }
 
 a {
     color: black;
+    font-size: 1.5rem;
     text-decoration: none;
+    transition: 0.3s;
 }
 
+a:hover {
+    opacity: 0.7;
+}
+/* nav bar */
 header {
-    background-color: var(--roxo);
-    padding: 10px;
-    text-align: center;
+    background-color: var(--amarelo);
+    height: 8vh;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-header h1 {
-    font-family: var(--font_tema);
-    text-align: center;
+#logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
 }
 
-header p {
-    font-family: var(--font_tema);
-}
-
-nav {
-    background-color: var(--roxo);
-    padding-bottom: 5px;
-    text-align: center;
-}
-
-nav a {
-    color: black;
-    padding: 5px 10px;
-}
-
-nav a:hover {
-    color: black;
-    background-color: #9a4dd6;
-}
-
-main {
-    max-width: 600px;
-    margin:auto;
-}
-
-main h1 {
-    text-align: center;
-}
-
-.per * {
-    text-align: center;
-}
-
-img {
-    width: 600px;
-    height: 200px;
-}
-
-figure {
-    background-color: var(--vermelho);
-}
-
-img#bencao {
-    width: 300px;
-    margin: auto;
-    display: block;
-}
-
-footer {
-    background-color: var(--roxo);
-    font-size: 1.5em;
+#navbar {
+    
 }
