@@ -58,6 +58,7 @@ header {
 }
 
 #navbar li {
+  color: black;
   letter-spacing: 3px;
   margin-left: 32px;
 }
