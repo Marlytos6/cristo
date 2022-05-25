@@ -20,8 +20,8 @@
     padding: 0px;
     margin: 0px;
 }
-
-header > a, h1 {
+/* testar sem vírgula */
+header > a h1 {
     font-family: var(--font_tema);
 }
 
@@ -44,7 +44,6 @@ a:hover {
 
 header {
   background: var(--cor);
-  font-family: var(--fonte_padrao);
   height: 8vh;
 
   display: flex;
@@ -95,6 +94,7 @@ header {
   }
 
   #navbar {
+    /* ??? */
     background: var(--cor);
     width: 50vw;
     height: 92vh;
