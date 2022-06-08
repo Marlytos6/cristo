@@ -142,3 +142,22 @@ header {
   background: var(--cor);
   font-family: var(--font_padrao);
 }
+
+main {
+  margin: 0 1em;
+}
+
+.tempos h1 {
+  font-family: var(--font_tema);
+  font-size: 3em;
+  text-align: center;
+}
+
+.tempos h2 {
+  text-align: center;
+}
+
+.tempos p {
+  text-align: center;
+  padding: 0.5em 0;
+}
